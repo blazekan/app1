@@ -1,0 +1,134 @@
+name: fastro
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  widgetbook: 2.0.5-beta
+  auto_size_text: 3.0.0
+  flutter_svg: ^1.0.3
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter: 
+  uses-material-design: true
+  assets: 
+    - packages/fastro/assets/images/rectangle6.svg
+    - packages/fastro/assets/images/ellipse2.png
+    - packages/fastro/assets/images/image.png
+    - packages/fastro/assets/images/arrowleft1.svg
+    - packages/fastro/assets/images/rectangle8.svg
+    - packages/fastro/assets/images/rectangle7.svg
+    - packages/fastro/assets/images/rectangle9.svg
+    - packages/fastro/assets/images/ellipse17.svg
+    - packages/fastro/assets/images/illustrationsdogjump.svg
+    - packages/fastro/assets/images/fill156.svg
+    - packages/fastro/assets/images/fill154.svg
+    - packages/fastro/assets/images/fill152.svg
+    - packages/fastro/assets/images/fill150.svg
+    - packages/fastro/assets/images/fill148.svg
+    - packages/fastro/assets/images/fill146.svg
+    - packages/fastro/assets/images/fill144.svg
+    - packages/fastro/assets/images/fill142.svg
+    - packages/fastro/assets/images/fill140.svg
+    - packages/fastro/assets/images/fill138.svg
+    - packages/fastro/assets/images/fill136.svg
+    - packages/fastro/assets/images/fill134.svg
+    - packages/fastro/assets/images/fill132.svg
+    - packages/fastro/assets/images/fill130.svg
+    - packages/fastro/assets/images/fill128.svg
+    - packages/fastro/assets/images/fill126.svg
+    - packages/fastro/assets/images/fill124.svg
+    - packages/fastro/assets/images/fill122.svg
+    - packages/fastro/assets/images/fill120.svg
+    - packages/fastro/assets/images/fill118.svg
+    - packages/fastro/assets/images/fill116.svg
+    - packages/fastro/assets/images/fill114.svg
+    - packages/fastro/assets/images/fill112.svg
+    - packages/fastro/assets/images/fill108.svg
+    - packages/fastro/assets/images/fill106.svg
+    - packages/fastro/assets/images/fill104.svg
+    - packages/fastro/assets/images/fill102.svg
+    - packages/fastro/assets/images/fill100.svg
+    - packages/fastro/assets/images/fill98.svg
+    - packages/fastro/assets/images/fill96.svg
+    - packages/fastro/assets/images/fill88.svg
+    - packages/fastro/assets/images/fill86.svg
+    - packages/fastro/assets/images/fill84.svg
+    - packages/fastro/assets/images/fill82.svg
+    - packages/fastro/assets/images/fill80.svg
+    - packages/fastro/assets/images/fill78.svg
+    - packages/fastro/assets/images/fill76.svg
+    - packages/fastro/assets/images/fill74.svg
+    - packages/fastro/assets/images/fill72.svg
+    - packages/fastro/assets/images/fill70.svg
+    - packages/fastro/assets/images/fill68.svg
+    - packages/fastro/assets/images/fill66.svg
+    - packages/fastro/assets/images/fill64.svg
+    - packages/fastro/assets/images/fill62.svg
+    - packages/fastro/assets/images/fill60.svg
+    - packages/fastro/assets/images/fill58.svg
+    - packages/fastro/assets/images/fill56.svg
+    - packages/fastro/assets/images/fill54.svg
+    - packages/fastro/assets/images/fill52.svg
+    - packages/fastro/assets/images/fill50.svg
+    - packages/fastro/assets/images/fill48.svg
+    - packages/fastro/assets/images/fill46.svg
+    - packages/fastro/assets/images/fill44.svg
+    - packages/fastro/assets/images/fill42.svg
+    - packages/fastro/assets/images/fill38.svg
+    - packages/fastro/assets/images/fill36.svg
+    - packages/fastro/assets/images/fill34.svg
+    - packages/fastro/assets/images/fill32.svg
+    - packages/fastro/assets/images/fill30.svg
+    - packages/fastro/assets/images/fill28.svg
+    - packages/fastro/assets/images/fill26.svg
+    - packages/fastro/assets/images/fill24.svg
+    - packages/fastro/assets/images/fill22.svg
+    - packages/fastro/assets/images/fill20.svg
+    - packages/fastro/assets/images/fill18.svg
+    - packages/fastro/assets/images/fill16.svg
+    - packages/fastro/assets/images/fill14.svg
+    - packages/fastro/assets/images/fill12.svg
+    - packages/fastro/assets/images/fill10.svg
+    - packages/fastro/assets/images/fill8.svg
+    - packages/fastro/assets/images/fill6.svg
+    - packages/fastro/assets/images/fill4.svg
+    - packages/fastro/assets/images/fill1.svg
+    - packages/fastro/assets/images/accent.svg
+    - packages/fastro/assets/images/vector.svg
+    - packages/fastro/assets/images/rectangle5.png
+    - packages/fastro/assets/images/rectangle6.png
+    - packages/fastro/assets/images/rectangle7.png
+    - packages/fastro/assets/images/rectangle8.png
+    - packages/fastro/assets/images/rectangle9.png
+    - packages/fastro/assets/images/rectangle10.png
+    - packages/fastro/assets/images/rectangle11.png
+    - packages/fastro/assets/images/rectangle12.png
+    - packages/fastro/assets/images/leaftop.svg
+    - packages/fastro/assets/images/plantleft.svg
+    - packages/fastro/assets/images/head.svg
+    - packages/fastro/assets/images/hair.svg
+    - packages/fastro/assets/images/objectsseatball.svg
+    - packages/fastro/assets/images/skin.svg
+    - packages/fastro/assets/images/legback.svg
+    - packages/fastro/assets/images/legfront.svg
+    - packages/fastro/assets/images/accessoriesshoeflatsneaker.svg
+    - packages/fastro/assets/images/bodyjacket2.svg
+    - packages/fastro/assets/images/mail.svg
+    - packages/fastro/assets/images/line4.svg
+    - packages/fastro/assets/images/lock.svg
+    - packages/fastro/assets/images/line5.svg
+    - packages/fastro/assets/images/group1.svg
+    - packages/fastro/assets/images/group.svg
+    - packages/fastro/assets/images/instagram1.svg
+    - packages/fastro/assets/images/group16.svg
+    - packages/fastro/assets/images/subtract.png
+    - packages/fastro/assets/images/polygon2.svg
+    - packages/fastro/assets/images/vector4.svg
+    - packages/fastro/assets/images/active.png
